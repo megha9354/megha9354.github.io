@@ -1,0 +1,303 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            #project {
+                text-align: center;
+            }
+
+            #project a {
+                margin: auto;
+            }
+
+            #project > .box-container {
+                display: -ms-grid;
+                display: grid;
+                grid-template-columns: auto;
+                gap: 5rem;
+                margin-bottom: 6rem;
+            }
+
+            #project > .box-container > .box {
+                height: 40rem;
+                width: 100%;
+                display: flex;
+                box-shadow: 0px 0px 10px 1px #3b3939;
+            }
+
+            #project > .box-container > .box > img {
+                height: 100%;
+                width: 60%;
+                padding: 2%;
+                -o-object-fit: cover;
+                object-fit: cover;
+                transition: 0.2s linear;
+            }
+            #project > .box-container > .box > img:hover {
+                padding: 0%;
+            }
+
+            #project > .box-container > .box > .content {
+                width: 100%;
+                background-color: #1a1a1a;
+                width: 39%;
+                margin: 2%;
+                height: 96%;
+            }
+
+            #project > .box-container > .box > .content > .tech-stack {
+                display: flex;
+                color: #fff;
+                font-size: 15px;
+                gap: 1rem;
+                font-weight: 100;
+                padding: 2rem 0rem;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                margin: auto;
+            }
+
+            #project > .box-container > .box > .content > h3 {
+                font-size: 2.5rem;
+                color: #fff;
+                text-transform: uppercase;
+                font-weight: normal;
+                margin-bottom: 2rem;
+            }
+
+            #project > .box-container > .box > .content > p {
+                padding: 1rem 0;
+                font-size: 1.5rem;
+                line-height: 2;
+                color: #aaa;
+            }
+
+            #project > .box-container > .box > .content > .check-btn {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+            }
+
+            #project > .box-container > .box > .content > .check-btn > .btn {
+                width: 10rem;
+            }
+            @media (max-width: 500px) {
+                #project .box > div,
+                #project .box > img {
+                    width: 100%;
+                }
+
+                #project > .box-container {
+                    display: -ms-grid;
+                    display: grid;
+                    grid-template-columns: auto;
+                    gap: 5rem;
+                    margin-bottom: 6rem;
+                }
+
+                #project > .box-container > .box {
+                    height: fit-content;
+                    width: 100%;
+                    margin: auto;
+                    overflow: hidden;
+                    position: relative;
+                    display: block;
+                    box-shadow: 0px 0px 10px 1px #3b3939;
+                }
+
+                #project > .box-container > .box > img {
+                    height: 96%;
+                    width: 96%;
+                    margin: 2%;
+                    -o-object-fit: cover;
+                    object-fit: cover;
+                    transition: 0.2s linear;
+                }
+
+                #project > .box-container > .box > .content {
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 96%;
+                    background: #1a1a1a;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    -ms-flex-flow: column;
+                    flex-flow: column;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    padding: 2rem;
+                    -webkit-transition: 0.2s linear;
+                    transition: 0.2s linear;
+                    margin: 2%;
+                    background-color: #1a1a1a;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <section id="project">
+            <h1 class="heading"><span>project</span> My Coding Journey</h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <h3>Nykaa Clone</h3>
+                    <img src="images/Project 2.png" alt="" />
+                    <div class="content">
+                        <h3>Nykaa Clone</h3>
+                        <p>
+                            Nykaa is an Indian e-commerce company, founded by
+                            Falguni Nayar in 2012 and headquartered in Mumbai.
+                            It sells beauty, wellness and fashion products
+                            across websites, mobile apps and 84 offline stores.
+                        </p>
+                        <div class="tech-stack">
+                            <h3>React</h3>
+                            <span>|</span>
+                            <h3>Redux</h3>
+                            <span>|</span>
+                            <h3>NodeJs</h3>
+                            <span>|</span>
+                            <h3>MongoDb</h3>
+                            <span>|</span>
+                            <h3>Express</h3>
+                        </div>
+                        <div class="check-btn">
+                            <a
+                                target="blank"
+                                href="https://github.com/WasimRehmn/nykaa-clone"
+                                class="btn"
+                            >
+                                <div>
+                                    <span class="bg"></span>
+                                    <span class="base"></span>
+                                    <span class="text">Code</span>
+                                </div>
+                            </a>
+                            <a
+                                target="blank"
+                                href="https://nykaa-app.netlify.app/"
+                                class="btn"
+                            >
+                                <div>
+                                    <span class="bg"></span>
+                                    <span class="base"></span>
+                                    <span class="text">Live</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/Project 1.png" alt="" />
+                    <div class="content">
+                        <h3>Sephora Nnnow Clone</h3>
+                        <p>
+                            Sephora is a French multinational retailer of
+                            personal care and beauty products. Featuring nearly
+                            340 brands, along with its own private label,
+                            Sephora Collection, Sephora offers beauty products
+                            including cosmetics
+                        </p>
+                        <div class="tech-stack">
+                            <h3>HTML</h3>
+                            <span>|</span>
+                            <h3>CSS</h3>
+                            <span>|</span>
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="check-btn">
+                            <a
+                                target="blank"
+                                href="https://github.com/WasimRehmn/sephora_nnnow_com"
+                                class="btn"
+                            >
+                                <div>
+                                    <span class="bg"></span>
+                                    <span class="base"></span>
+                                    <span class="text">Code</span>
+                                </div>
+                            </a>
+                            <a
+                                target="blank"
+                                href="https://sephora-nnnow-clone.netlify.app/"
+                                class="btn"
+                            >
+                                <div>
+                                    <span class="bg"></span>
+                                    <span class="base"></span>
+                                    <span class="text">Live</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/Project 3.png" alt="" />
+                    <div class="content">
+                        <h3>Translate App</h3>
+                        <p>
+                            A web text Translate app that support more than 10
+                            languages. It tanslate one language to another by
+                            just a simple click.
+                        </p>
+                        <div class="tech-stack">
+                            <h3>HTML</h3>
+                            <span>|</span>
+                            <h3>CSS</h3>
+                            <span>|</span>
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="check-btn">
+                            <a
+                                target="blank"
+                                href="https://github.com/WasimRehmn/my-translate-app"
+                                class="btn"
+                            >
+                                <div>
+                                    <span class="bg"></span>
+                                    <span class="base"></span>
+                                    <span class="text">Code</span>
+                                </div>
+                            </a>
+                            <a
+                                target="blank"
+                                href="https://my-translate.netlify.app/"
+                                class="btn"
+                            >
+                                <div>
+                                    <span class="bg"></span>
+                                    <span class="base"></span>
+                                    <span class="text">Live</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a target="blank" href="https://github.com/WasimRehmn" class="btn">
+                <div>
+                    <span class="bg"></span>
+                    <span class="base"></span>
+                    <span class="text"
+                        >View more<i class="fab fa-github"></i>
+                    </span>
+                </div>
+            </a>
+        </section>
+    </body>
+</html> -->
