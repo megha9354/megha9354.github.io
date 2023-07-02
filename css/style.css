@@ -666,6 +666,17 @@ q {
   height: 65px;
 }
 
+.aboutProject {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-size: 23px;
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
 /* Contact End */
 
 @media (max-width: 1300px) {
