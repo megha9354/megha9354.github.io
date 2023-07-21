@@ -1,496 +1,546 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Portfolio |Megha Rawat</title>
-        <link
-            rel="shortcut icon"
-            href="./images/MyLogo1.png"
-            type="image/x-icon"
-        />
 
-        <!-- font awesome cdn link  -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        />
-        <!-- Swiper css -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css"
-        />
-        <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-        />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Megha-Rawat-Portfolio</title>
+  
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
-        <!-- custom css file link  -->
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-        <!-- navbar section starts  -->
-        <nav  id="nav-menu" class="navbar">
-            <!-- <img src="./images/MyLogo1.png" alt="logo"  /> -->
-            <a  class="nav-link home bottomLogo" href="#home"><img src="./images/MyLogo1.png" alt="logo"   /></a>
-            <a  class="nav-link about" href="#about">
-                <i class="fas fa-user"></i> <span>About</span>
-            </a>
-            <a  class="nav-link skills" href="#skills">
-                <i class="fas fa-tools"></i> <span>Skills</span>
-            </a>
-            <a class="nav-link projects" href="#projects">
-                <i class="fas fa-briefcase"></i> <span>Project</span>
-            </a>
-            <a  class="nav-link contact" href="#contact">
-                <i class="fas fa-address-book"></i> <span>Contact</span>
-            </a>
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
-            <!--  still work on the resume  -->
-            <!-- <a id="resume-link-1" class="nav-link resume" href="#contact">
-                <i class="fas fa-address-book"></i> <span>Resume</span>
-            </a> -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-            <a id="resume-link-1" download="./Resume.pdf"  class="nav-link resume" target="blank" href="./Resume.pdf" class="btn">
+  <link rel="stylesheet" href="./style.css">
+    
+  <link rel="preload" as="image" href="./images/profile-img.png" />
+  <link rel="preload" as="image" href="./images/pattern-2.svg" />
+  <link rel="preload" as="image" href="./images/pattern-3.svg" />
+
+  <link rel="shortcut icon" href="./images/img_56497.webp" type="image/x-icon">
+</head>
+
+<body id="top">
+
+  <!--** Navbar **-->
+
+  <header class="header">
+    <a href="#" class="logo">Megha Rawat</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav id="nav-menu">
+      <a class="nav-link home" href="#home">Home</a>
+      <a class="nav-link about" href="#about">About</a>
+      <a class="nav-link skills" href="#skills">Skills</a>
+      <a class="nav-link projects" href="#projects">Projects</a>
+      <a class="nav-link contact" href="#contact">Contact</a>
+
+      <li id="resume-button-1" class="nav-link resume">
+        <a href="Megha-Resume.pdf" target="_blank" id="resume-link-1" download="Megha-Resume.pdf">Resume
+          <i class='bx bxs-download'></i></a>
+      </li>
+
+    </nav>
+  </header>
+  <!--** Navbar Ends **-->
+
+  <!--** Home Section **-->
+
+  <section class="home" id="home">
+
+    <div class="home-content">
+      <h3>Hello, it's Me</h3>
+
+      <h1 id="user-detail-name">Megha Rawat</h1>
+      <h3>And I'm a <br><span class="multiple-text"></span></h3>
+
+      <div class="social-media">
+        <a href="https://github.com/megha9354"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/megharawat9354/"><i class='bx bxl-linkedin'></i></a>
+      </div>
+
+      <li id="resume-button-2">
+        <a href="Megha-Resume.pdf" target="_blank" id="resume-link-2" class="button"
+          download="Megha-Resume.pdf">Resume<i class='bx bxs-download'></i></a>
+      </li>
+
+
+    </div>
+
+    <div class="home-image">
+      <img class="home-img" 
+      src="./images/mgr.jpeg" 
+      alt="profile-pic" />
+    </div>
+
+  <img
+    src="./images/shadow-1.svg"
+    width="500"
+    height="800"
+    alt=""
+    class="hero-bg hero-bg-1"
+  />
+
+  <img
+    src="./images/shadow-2.svg"
+    width="500"
+    height="500"
+    alt=""
+    class="hero-bg hero-bg-2"
+  />
+    </div>
+  </section>
+  <!--** Home Section Ends **-->
+
+
+  <!--** About Section ** -->
+
+  <section id="about" class="about section">
+
+ <h2 class="heading"><i class='bx bx-user'></i>About
+        <span>Me!</span>
+    <div class="about-content">
+      <h3>I'm <span>Megha</span></h3>
+      <h3>Full-stack web Developer</h3>
+      <p id="user-detail-intro">
+        As a full-stack web developer based in Noida, Uttar-Pradesh, India,
+         I have completed my graduation in B.COM (Bachelor of Commerce ) programme
+          from Maitreyi college University of Delhi .
+          As a full-stack developer with specialization in MERN stack with a passion 
+          for learning and doing something meaningful with my learning, having Hands-on experience in
+          HTML, CSS, JavaScript, React and  Redux.
+      </p>
+    </div>
+  </section>
+
+    <!-- ** About Section End ** -->
+
+
+  <!--skills start-->
+ <section id="skills" class="skills" >
+        <div class="container tags">
+          <h2 class="heading" >Skills &
+            <span>Abilities</span></h2>
+
+          <ul class="grid-list">
+            <li>
+              <button class="skills-card tag-btn">
+                <img
+                  src="./images/HTML5_logo.png"
+                  class="skills-card-img"
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                  alt="HTML"
+                />
+
+                <p class="skills-card-name">HTML</p>
+              </button>
+            </li>
+            <li>
+              <button class="skills-card tag-btn">
+                <img
+                  src="./images/css.png"
+                  class="skills-card-img"
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                  alt="CSS"
+                />
+
+                <p class="skills-card-name">CSS</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="skills-card tag-btn">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  class="skills-card-img"
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                  alt="JavaScript"
+                />
+
+                <p class="skills-card-name">JavaScript</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="skills-card tag-btn">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                  class="skills-card-img"
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                  alt="NodeJS"
+                />
+
+                <p class="skills-card-name">NodeJS</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="skills-card tag-btn">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                  class="skills-card-img"
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                  alt="Express"
+                />
+
+                <p class="skills-card-name">Express</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="skills-card tag-btn">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                  class="skills-card-img"
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                  alt="MongoDB"
+                />
+
+                <p class="skills-card-name">MongoDB</p>
+              </button>
+            </li>
+
+            <!-- <li>
+              <button class="skills-card tag-btn">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg"
+                  class="skills-card-img"
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                  alt="Mongoose"
+                />
+
+                <p class="skills-card-name">Socket.io</p>
+              </button>
+            </li> -->
+            <!-- <li>
+              <button class="skills-card tag-btn">
+                <img
+                  src="./images/redis.svg"
+                  class="skills-card-img"
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                  alt="GIT"
+                />
+
+                <p class="skills-card-name">Redis</p>
+              </button>
+            </li> -->
+
+            <li>
+              <button class="skills-card tag-btn">
+                <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                  class="skills-card-img"
+            
+                />
+
+                <p class="skills-card-name">GIT</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="skills-card tag-btn">
+                <img
+                  class="skills-card-img"
+                  src="./images/npm.svg"
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                  alt="NPM"
+                />
+
+                <p class="skills-card-name">NPM</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="skills-card tag-btn">
+                <img
+                class="skills-card-img"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                  width="32"
+                  height="32"
+                  loading="lazy"
                 
-                <div>
-                    <span class="bg"></span>
-                    <span class="base"></span>
-                    <span class="text">
-                        Resumé <i class="fas fa-download"></i
-                    ></span>
-                </div>
-            </a>
-        </nav>
+                />
 
-        <!-- Top Navigation Menu -->
-        <div class="topnav">
-                <a  href="#home"><img src="/images/MyLogo1.png" alt="" /></a
-            ></a>
-            <div id="myLinks">
-                <a onclick="myFunction()" href="#home">Home</a>
-                <a onclick="myFunction()" href="#about">About</a>
-                <a onclick="myFunction()" href="#skills">Skills</a>
-                <a onclick="myFunction()" href="#project">Project</a>
-                <a onclick="myFunction()" href="#contact">Contact</a>
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+                <p class="skills-card-name">VSCode</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="skills-card tag-btn">
+                <img
+                src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/react-3.png"
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                  class="skills-card-img"
+            
+                />
+
+                <p class="skills-card-name">React</p>
+              </button>
+            </li>
+
+            
+            <li>
+              <button class="skills-card tag-btn">
+                <img
+                src="https://icons.veryicon.com/png/128/business/vscode-program-item-icon/redux-action.png"
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                  class="skills-card-img"
+            
+                />
+
+                <p class="skills-card-name">Redux</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="skills-card tag-btn">
+                <img
+                src="https://icons.veryicon.com/png/o/application/app-icon-7/figma-1.png"
+                  width="32"
+                  height="32"
+                  loading="lazy"
+                  class="skills-card-img"
+            
+                />
+
+                <p class="skills-card-name">Figma</p>
+              </button>
+            </li>
+
+
+          </ul>
         </div>
-        <!-- navbar section ends -->
 
-        <!-- home section starts  -->
-        <section  id="home"  id="resume-link-2" >
-            <div class="person">
-                <div class="container1">
-                    <div class="container-inner">
-                        <!-- <img class="circle" src="./images/favicon.png" /> -->
-                        <img style="height: 830px;" class="img home-img"  src="./images/Mypicture.png" />
-                    </div>
-                </div>
+             <div class="skills-container">
+            <div class="skills-card-1">
+              <i class='bx bx-code-alt' class="skills-card-img"></i>
+              <h3 class="skills-card-name">Full Stack Development</h3>
+              <p>HTML | CSS | JavaScript | NodeJS | Express | MongoDB</p>
+              <a href="#" class="button">Read More</a>
             </div>
-
-            <div class="content">
-                <h1>Hi,</h1>
-                <h1>I'm <span id="user-detail-name" class="auto-typed">Megha Rawat</span></h1>
-                <span>Full Stack Developer</span>
-                <p><q>Passionate about coding ...</q></p>
-                <p id="user-detail-intro">
-                    Dedicated, observant and an efficient Full Stack Developer
-                    with a specialization in MERN stack. Trained in leading
-                    frontend and backend Web Development while performing
-                    quality assurance. Able to effectively self-manage during
-                    independent projects as well as collaborate in a team
-                    setting. Seeking to further improve programming skills in a
-                    dynamic organization.
-                </p>
-                <!-- <a target="blank" href="https://drive.google.com/drive/folders/1klQGJrHcON5aJzyOIgAVyyRkcXLEr1_R?usp=sharing" class="btn">
-                    <div>
-                        <span class="bg"></span>
-                        <span class="base"></span>
-                        <span class="text">
-                            Resumé <i class="fas fa-download"></i
-                        ></span>
-                    </div>
-                </a> -->
+            <div class="skills-card-1">
+              <i class='bx bxl-codepen' class="skills-card-img"></i>
+              <h3 class="skills-card-name">Data Structure Algorithm</h3>
+              <p> Two Pointer | Stack & Queue | LinkedList |
+                Recursion |  DP </p>
+              <a href="#" class="button">Read More</a>
             </div>
-        </section>
-        <!-- home section ends -->
+          </div>   
+      
+      </section> 
 
-        <!-- about section starts  -->
-        <section id="about"  id="resume-link-2"  class="about section">
-            <h1 class="heading"><span>About</span>Me, Myself and I</h1>
-
-            <div class="row">
-                <h1>
-                    I belong from Uttrakhand, But Currently staying in Noida.
-                    I have graduated from Delhi
-                    University.
-                </h1>
-                <h1>
-                    I have seen the invention of new technologies and always
-                    thought about how websites work, which triggered my
-                    curiosity to learn about technology. And I joined Masai
-                    School.
-                </h1>
-                <h1>
-                    My studies have provided me with excellent proficiency in
-                    the use of HTML, CSS, JavaScripts, MERN Stack Technology.
-                    Alongside this, I have developed various soft skills such as
-                    time management and presentation skill collaboration.
-                </h1>
-                <h1>
-                    Apart from Coding, I love to spend my time with my family
-                    and friends. I also enjoy cooking, singing, watching Anime and
-                    exploring new things in my free time.
-                </h1>
-            </div>
-        </section>
-        <!-- about section ends -->
-
-
-        <!-- skills section starts  -->
-        <section id="skills" >
-            <h1 class="heading"><span>skills</span> My Learning Journey</h1>
-            <p><q>I'm still Learnin' casue i have a long way to go</q></p>
-
-            <div class="box-container">
-                <div>
-                    <div class="box skills-card">
-                        <img  class="skills-card-img"  src="images/html.png" />
-                        <h3  class="skills-card-name">HTML</h3>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <img  class="skills-card-img" src="images/css.png" />
-                    <h3  class="skills-card-name">CSS</h3>
-                </div>
-                <div class="box">
-                    <img class="skills-card-img" src="images/javascript.png" />
-                    <h3  class="skills-card-name">JavaScript</h3>
-                </div>
-                <div class="box">
-                    <img  class="skills-card-img" src="images/nodeJs.png" />
-                    <h3  class="skills-card-name">Node.js</h3>
-                </div>
-                <div class="box">
-                    <img class="skills-card-img" src="images/react.png" />
-                    <h3  class="skills-card-name">React.js</h3>
-                </div>
-                <div class="box">
-                    <img class="skills-card-img" src="images/redux.png" />
-                    <h3  class="skills-card-name">Redux.js</h3>
-                </div>
-                <!-- <div class="box">
-                    <img src="images/mongoDb.png" />
-                    <h3>MongoDb</h3>
-                </div> -->
-                <div class="box">
-                    <img src="images/express.png" />
-                    <h3>Express.js</h3>
-                </div>
-                <div class="box">
-                    <img  class="skills-card-img" src="images/ES6.png" />
-                    <h3  class="skills-card-name">ES6</h3>
-                </div>
-                <!-- <div class="box">
-                    <img src="images/python.png" />
-                    <h3>Python</h3>
-                </div> -->
-            </div>
-        </section>
-        <!-- skills section ends -->
-
-
-        <!-- project section starts  -->
-        <section id="projects">
-            <h1 class="heading"><span>project</span> My Coding Journey</h1>
-            <!--  first Project -->
-            <div id="box1" class="project-card box">
-                <div class="swiper-container1">
-                    <div class="aboutProject">
-                        <h1 class="project-title" style="margin-left: 80px;">Nykaa Clone</h1>
-                        <button onclick="GetDetail1()" id="get1" style="display: flex;" class="btn2">
-                                    Detail <i class="fas fa-info"></i>
-                        </button>
-                        <button onclick="CloseDetail1()" id="close1" style="display: none;" class="btn2">
-                                    Close <i class="fas fa-times"></i>
-                        </button>
-                    </div>
-                            
-                    <div id="project1_Info" style="display: none" class="project_Info">
-                        <p class="project-description info" >
-                            Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and headquartered in Mumbai. It sells beauty, wellness and fashion products across websites, mobile apps and 84 offline stores.
-                        </p>
-                        <div  class="project-tech-stack teck_stk" >
-                            <img src="./images/html.png" alt="html"><img src="./images/javascript.png" alt="javascript"><img src="./images/css.png" alt="CSS">
-                            <!-- <img src="./images/mongoDb.png" alt="MongoDb"> -->
-                        </div>
-                        <div class="links">
-                            <a class="project-github-link btn2" target="blank" href="https://github.com/megha9354/Nyka-clone">
-                                        <i class="fas fa-code"></i>
-                            </a>
-                            <a class="project-deployed-link btn2" target="blank" href="https://project-nykaa.netlify.app/index.html">
-                                       <i class="fas fa-desktop"></i>
-                            </a>    
-                        </div>
-                    </div>
-
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide nykaaFirstSlide">
-                            <div class="swiper-content">
-                                <div class="hero" style="background: url(./images/project\ 1-1.png);">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-content">
-                                <div class="hero" style="background: url(./images/project\ 1-2.png);">
-                                    
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="swiper-slide nykaaLastSlide">
-                            <div class="swiper-content">
-                                <div class="hero" style="background-image: url(./images/project\ 1-3.png);">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-
-
-        <!--  second Project -->
-        
-            <div id="box2" class="project-card box">
-                <div class="swiper-container2">
-                    <div class="aboutProject" >
-                        <h1 class="project-title" style="margin-left: 85px;">Electon</h1>
-                        <button onclick="GetDetail2()" id="get2" style="display: flex;" class="btn2">
-                            Detail <i class="fas fa-info"></i>
-                </button>
-                <button onclick="CloseDetail2()" id="close2" style="display: none;" class="btn2">
-                            Close <i class="fas fa-times"></i>
-                </button>
-                    </div>
-                    <div id="project2_Info" style="display: none" class="project_Info">
-                        <p class="project-description info">
-                            
-                         Electone is an electronic goods and gadgets website 
-                         where you can buy all the goods of  latest technologies.
-                         which make life easier and comfortable.
-                        </p>
-                        <div  class="project-tech-stack teck_stk">
-                            <img src="./images/html.png" alt="HTML"><img src="./images/css.png" alt="CSS"><img src="./images/javascript.png" alt="JavaScript">
-                        </div>
-                        <div class="links">
-                            <a  class="project-github-link btn2" target="blank" href="https://github.com/megha9354/Electone">
-                                        <i class="fas fa-code"></i>
-                            </a>
-                            <a class="project-deployed-link btn2" target="blank" href="https://megha9354.github.io/Electone-Update-Clone/">
-                                       <i class="fas fa-desktop"></i>
-                            </a>    
-                        </div>
-                    </div>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide elecTonFirstImgae">
-                            <div class="swiper-content">
-                                <div  class="hero"   style="background: url(./images/project\ 2-1.png);" >
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-content">
-                                <div class="hero" style="background: url(./images/project\ 2-2.png);">
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-content">
-                                <div class="hero" style="background: url(./images/project\ 2-3.png);">
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
+  <!-- skills ends --->
 
 
 
-            <!-- <div id="box3" class="box">
-                <div class="swiper-container3">
-                    <div class="aboutProject">
-                        <h1>Translate App</h1>
-                        <button onclick="GetDetail3()" id="get3" style="display: flex;" class="btn2">
-                            Detail <i class="fas fa-info"></i>
-                        </button>
-                        <button onclick="CloseDetail3()" id="close3" style="display: none;" class="btn2">
-                            Close <i class="fas fa-times"></i>
-                        </button>
-                    </div>
-                    <div id="project3_Info" style="display: none" class="project_Info">
-                        <p class="info">
-                            A web text Translate app that support more than 10 languages. It tanslate one language to another by just a simple click.
-                        </p>
-                        <div class="teck_stk">
-                            <img src="./images/html.png" alt="HTML"><img src="./images/css.png" alt="CSS"><img src="./images/javascript.png" alt="JavaScript">
-                        </div>
-                        <div class="links">
-                            <a target="blank" href="https://github.com/WasimRehmn/my-translate-app" class="btn2">
-                                        <i class="fas fa-code"></i>
-                            </a>
-                            <a target="blank" href="https://my-translate.netlify.app/" class="btn2">
-                                       <i class="fas fa-desktop"></i>
-                            </a>    
-                        </div>
-                    </div>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="swiper-content">
-                                <div class="hero" style="background: url(./images/project-3-1.png); background-position: center; background-size: 100%;">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-content">
-                                <div class="hero" style="background: url(./images/project-3-2.png); background-position: center; background-size: 100%;">
-                                    
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-content">
-                                <div class="hero" style="background: url(./images/project-3-3.png); background-position: center; background-size: contain; background-repeat: no-repeat;">
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div> -->
-        </section>
-        <!-- project section ends -->
+  <!-- Project Starts -->
 
 
-        <!-- contact section starts  -->
-        <section id="contact">
-            <h1 class="heading"><span>contact</span> me</h1>
+  <section class="project" id="projects">
+    <h2 class="heading">My
+      <span>Projects</span>
+    </h2>
+    <div class="project-container">
 
-            <div class="row">
-                <div class="info-container">
-                    <p><q>Let's talk about Coding</q></p>
+      <div class="project-card">
+        <img src="./images/project 1-1.png" alt="">
+        <div class="project-layer">
+          <h4 class="project-title">Nyka.com</h4>
+          <p class="project-description">Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and headquartered in Mumbai.
+     It sells beauty, wellness and fashion products across websites, mobile apps and 100+ offline stores.</p>
+          <h5 class="project-tech-stack">HTML | CSS | JavaScript </h5>
+          <div class="projectlinks"> 
+            <a href="https://github.com/shivamcalis1998/teamNakya" class="project-github-link"><i
+              class='bx bxl-github'></i></a>
+          <a href="https://clonenykafinalproduct.netlify.app/" class="project-deployed-link"><i
+              class='bx bxl-netlify'></i></a>
+          </div>
+       
+        </div>
+      </div>
 
-                    <p>
-                        I'm would love to work with great companies and to
-                        engage in great projects that will change the future of
-                        web development.
-                    </p>
+      <div class="project-card">
+        <img src="./images/project 3-1.png" alt="">
+        <div class="project-layer">
+          <h4 class="project-title">LET IT BEE.COM</h4>
+          <p class="project-description">LET IT BEE.COM is an e-commerce website for best quality natural Honey Enriched with multiple Health
+           benefits and antioxidents which helps our body cells to protect from stress and diseases and maintain good physique</p>
+          <h5 class="project-tech-stack">HTML | CSS | JavaScript | json Server | React | Redux</h5>
+          <div class="projectlinks">
+            <a href="https://github.com/sahilshahu555/HoneyStore/tree/main/honey-store" class="project-github-link"><i
+              class='bx bxl-github'></i></a>
+          <a href="https://honeystore1.netlify.app/" class="project-deployed-link"><i
+              class='bx bxl-netlify'></i></a>
+          </div>
+     
+        </div>
+      </div>
+      <!-- <div class="project-card">
+        <img src="./images/hommade.png" alt="">
+        <div class="project-layer">
+          <h4 class="project-title">Homemade.com</h4>
+          <p class="project-description">Homemade.com Homemade is an e-commerce website that deals in the sale of
+            exclusive clothing and footwer items. It is clone of Craftsvilla.com</p>
+          <h5 class="project-tech-stack">HTML | CSS | JavaScript | NodeJS  | MongoDB | Express  </h5>
+          <div class="projectlinks">
+            <a href="https://github.com/rajtupe987/NXM-101_prj/" class="project-github-link"><i
+              class='bx bxl-github'></i></a>
+          <a href="https://jazzy-druid-d3500c.netlify.app/" class="project-deployed-link"><i
+              class='bx bxl-netlify'></i></a>
+          </div>
+          
+        </div>
 
-                    <div class="box-container">
-                        <div class="box">
-                            <i class="fas fa-map"></i>
-                            <div class="info">
-                                <h3>Address :</h3>
-                                <p>Noida - Uttar Pradesh, India - 201304</p>
-                            </div>
-                        </div>
+      </div> -->
 
-                        <div class="box">
-                            <i class="fas fa-envelope"></i>
-                            <div id="contact-email" class="info">
-                                <h3>Email :</h3>
-                                <p >rawatmegha9354@gmail.com</p>
-                            </div>
-                        </div>
 
-                        <div class="box">
-                            <i class="fas fa-phone"></i>
-                            <div id="contact-phone" class="info">
-                                <h3>Number :</h3>
-                                <p>+91-9625092495</p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="share">
-                        <a
-                        id="contact-github"
-                        target="blank"
-                            href="https://github.com/megha9354"
-                            class="fab fa-github"
-                        ></a>
-                        <a
-                        target="blank"
-                            href="https://www.instagram.com/megharawat77"
-                            class="fab fa-instagram"
-                        ></a>
-                        <a
-                        id="contact-linkedin"
-                        target="blank"
-                            href="https://www.linkedin.com/in/megharawat9354"
-                            class="fab fa-linkedin"
-                        ></a>
-                    </div>
-                </div>
 
-                <form
-                    action="https://formcarry.com/s/9jAUoLgsQXU"
-                    method="POST"
-                    accept-charset="UTF-8"
-                >
-                    <div class="inputBox">
-                        <input
-                            name="Name"
-                            type="text"
-                            placeholder="Enter Your Name"
-                            required
-                        />
-                        <input
-                        id="contact-email"
-                            name="Email-Id"
-                            type="email"
-                            placeholder="Your Email"
-                            required
-                        />
-                    </div>
 
-                    <textarea
-                        name="Message"
-                        placeholder="Your Message"
-                        cols="30"
-                        rows="10"
-                        required
-                    ></textarea>
-                    <input type="hidden" name="_gotcha" />
 
-                    <!-- <button class="btn">Send Message</button> -->
-                    <button class="btn">
-                        <div>
-                            <span class="bg"></span>
-                            <span class="base"></span>
-                            <span class="text">Send Message</span>
-                        </div>
-                    </button>
-                </form>
-            </div>
-        </section>
+<!-- 
+      <div class="project-card">
+        <img src="./images/chatbot.png" alt="">
+        <div class="project-layer">
+          <h4 class="project-title">ChatBot.com</h4>
+          <p class="project-description">An Interview Preparation ChatBot. The best way to prepare for the programming interviews.</p>
+          <h5 class="project-tech-stack">HTML | CSS | JavaScript | Node.js | Express | MongoDB |  Chart.js | </h5>
+          <div class="projectlinks"> 
+            <a href="https://github.com/AmanChaudhary214/RoboMinds" class="project-github-link"><i
+              class='bx bxl-github'></i></a>
+          <a href="https://romominds.netlify.app/homepage/index.html/" class="project-deployed-link"><i
+              class='bx bxl-netlify'></i></a>
+          </div>
+        </div>
+      </div>  -->
 
-        <!-- contact section ends -->
-        <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-        <script src="index.js"></script>
-    </body>
+
+    </div>
+    </div>
+  </section>
+  <!--Project Ends -->
+ 
+  <!-- GitHub starts -->
+
+  <div id="github-stats">
+    <h2 class="heading">GitHub
+      <span class="span">Statistics</span>
+    </h2>
+    <div class="container">
+    
+      <div>
+        <div class="react-activity-calendar calendar" style="width: 100%;">
+          Loading the data just for you.
+        </div>
+        <br />
+        <div  align="center" class="stats">
+          <a href="https://github.com/megha9354">
+            <img id="github-streak-stats"
+              src="https://github-readme-streak-stats.herokuapp.com/?user=megha9354&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"
+              alt="" />
+            <br />
+            <br />
+
+            <img id="github-stats-card"
+              src="https://github-readme-stats.vercel.app/api?username=megha9354&show_icons=true&locale=en&theme=react&hide_border=true&bg_color=0D1117" />
+
+            <br />
+            <br />
+
+            <img
+              src="https://github-readme-stats.vercel.app/api/top-langs?username=megha9354&&show_icons=true&locale=en&layout=compact&theme=react&hide_border=true&bg_color=0D1117"
+              id="github-top-langs" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GitHub ends -->
+  
+  <div id="contact">
+    <h2 class="heading">Contact
+      <span>Me</span>
+    </h2>
+    <div class="contact_me">
+      <p id="contact-phone">Contact Number - +91 9625092495</p>
+      <p>
+      <p id="contact-email"> <a href="mailto:rawatmegha9354@gmail.com"></a>
+        Email Address-rawatmegha9354@gmail.com
+      </p>
+      </p>
+      <p>Address- Noida, Uttar-Pradesh - 201304</p>
+
+      <div>
+        <a class="project-link linkdk" id="contact-linkedin" target="_blank"
+          href="https://www.linkedin.com/in/megharawat9354/"><i style="font-size: 40px"
+            class='bx bxl-linkedin' aria-hidden="true"></i></a>
+
+        <a class="project-link linkd" id="contact-github" target="_blank" href="https://github.com/megha9354"><i
+            style="font-size: 40px" class='bx bxl-github' aria-hidden="true"></i></a>
+
+        <a class="project-link linkd" href="mailto:rawatmegha9354@gmail.com" target="_blank"><i style="font-size: 40px"
+            class='bx bx-envelope' aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+
+
+    <!--  Contacts Ends -->
+   
+   
+    <!--  Footer Starts -->
+
+
+  <footer class="footer">
+    <div class="footer-text">
+
+      <p> Copyright &copy; 2023 by Megha Rawat All rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+<!--  Footer Ends  -->
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  
+  <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+
+  <script src="index.js"></script>
+
+
+</body>
+
 </html>
+

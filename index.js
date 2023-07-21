@@ -1,108 +1,280 @@
-// Auto Typed Name
-// let typed = new Typed(".auto-typed", {
-//     strings: ["Wasim Rehman,"],
-//     typeSpeed: 220,
-//     backSpeed: 220,
-//     loop: true,
+
+
+// let menuIcon = document.querySelector('#menu-icon');
+// let navbar = document.querySelector('#nav-menu');
+
+// menuIcon.onclick = () => {
+//   menuIcon.classList.toggle('bx-x');
+//   navbar.classList.toggle('active');
+// };
+
+
+// //*=============================== toggle icon navbar ==================================
+
+// // let menuIcon = document.querySelector('#menu-icon');
+// // let navbar = document.querySelector('#nav-menu')
+
+// // menuIcon.onclick = () => {
+// //   menuIcon.classList.toggle('bx-x');
+// //   navbar.classList.toggle('active')
+// // };
+
+// // *=============================== github calendar ==================================
+// GitHubCalendar(".calendar", "RajTupe");
+
+// // or enable responsive functionality:
+// GitHubCalendar(".calendar", "RajTupe", { responsive: true });
+
+// // //*=============================== github calender ==================================
+// // GitHubCalendar(".calendar", "RajTupe");
+
+// // //or enable responsive functionality:
+// // GitHubCalendar(".calendar", "RajTupe", { responsive: true });
+
+
+// // *=============================== resume open in new tab ==================================
+// let resume1 = document.getElementById("resume-button-1").addEventListener("click", NewTab);
+// let resume2 = document.getElementById("resume-button-2").addEventListener("click", NewTab);
+
+// function NewTab() {
+//   window.open(
+//     "https://drive.google.com/file/d/1aIx7oXswHginslfjiUfM6fRxb4gcTBjX/view?usp=sharing",
+//     "_blank"
+//   );
+// }
+
+// // *=============================== scroll sections active link ==================================
+// let sections = document.querySelectorAll('section');
+// let navlinks = document.querySelectorAll('header nav a');
+
+
+// // *=============================== resume open in new tab ==================================
+
+
+// // let resume1 = document.getElementById("resume-button-1").addEventListener("click", NewTab)
+// // let resume2 = document.getElementById("resume-button-2").addEventListener("click", NewTab)
+
+// // function NewTab() {
+// //   window.open(
+// //     "https://drive.google.com/file/d/1aIx7oXswHginslfjiUfM6fRxb4gcTBjX/view?usp=sharing",
+// //     "_blank"
+// //   );
+// // }
+
+// // // *=============================== scroll sections active link ==================================
+// // let sections = document.querySelectorAll('section');
+// // let navlinks = document.querySelectorAll('header nav a')
+
+// window.onscroll = () => {
+//   sections.forEach(sec => {
+//     let top = window.scrollY;
+//     let offset = sec.offsetTop - 150;
+//     let height = sec.offsetHeight;
+//     let id = sec.getAttribute('id');
+
+//     if (top >= offset && top < offset + height) {
+//       navlinks.forEach(links => {
+//         links.classList.remove('active');
+//         document.querySelector('header nav a[href*="' + id + '"]').classList.add('active');
+//       });
+//     }
+//   });
+
+//   // *=============================== sticky navbar ==================================
+//   let header = document.querySelector('header');
+//   header.classList.toggle('sticky', window.scrollY > 100);
+
+//   // *=============================== remove toggle icon and navbar when click navbar link(scroll) ==================================
+//   menuIcon.classList.remove('bx-x');
+//   navbar.classList.remove('active');
+// };
+
+// // window.onscroll = () => {
+// //   sections.forEach(sec => {
+// //     let top = window.scrollY;
+// //     let offset = sec.offsetTop - 150;
+// //     let height = sec.offsetHeight;
+// //     let id = sec.getAttribute('id');
+
+// //     if (top >= offset && top < offset + height) {
+// //         navlinks.forEach(links => {
+// //           links.classList.remove('active');
+// //           document.querySelector('header nav a[href*="" + id + ""]').classList.add('active')
+// //         });
+// //     };
+
+// //   });
+// //   // *=============================== sticky navbar ==================================
+   
+// //   let header = document.querySelector('header');
+
+// //   header.classList.toggle('sticky', window.scrollY > 100);
+
+// // // *=============================== remove toggle icon and navbar when click navbar link(scroll) ==================================
+
+// // menuIcon.classList.remove('bx-x');
+// // navbar.classList.remove('active')
+
+// // };
+
+// // *=============================== scroll reveal ==================================
+
+// // // *=============================== scroll reveal ==================================
+// // ScrollReveal({
+// //   distance: '80px',
+// //   duration: 2000,
+// //   delay: 200
+// // });
+
+// // ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+// // ScrollReveal().reveal('.home-img, .skills-container, .project-card, .contact form', { origin: 'bottom' });
+// // ScrollReveal().reveal('.home-content h1', { origin: 'left' });
+// // ScrollReveal().reveal('.home-content p, .about-content', { origin: 'left' });
+
+// // // *=============================== typed.js ==================================
+// // const typed = new Typed('.multiple-text', {
+// //   strings: ['Full Stack Web Developer', 'Backend Developer'],
+// //   typeSpeed: 100,
+// //   backSpeed: 100,
+// //   backDelay: 1000,
+// //   loop: true
+// // });
+
+
+
+// ScrollReveal({
+//   // reset: true,
+//   distance: '80px',
+//   duration: 2000,
+//   delay: 200
 // });
 
-function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
+// ScrollReveal().reveal('.home-content, .heading', { origin: 'top'});
+// ScrollReveal().reveal('.home-img, .skills-container, .project-card, .contact form', { origin: 'bottom'});
+// ScrollReveal().reveal('.home-content h1', { origin: 'left'});
+// ScrollReveal().reveal('.home-content p, .about-content', { origin:'left'});
+
+// // *===============================  typed js==================================
+
+// const typed = new Typed('.multiple-text', {
+//   strings: ['Full Stack Web Developer', 'Backend Developer'],
+//   typeSpeed: 100,
+//   backSpeed: 100,
+//   backdelay: 1000,
+//   loop: true
+// })
+
+
+
+// GitHubCalendar(".calendar", "rajtupe987");
+
+// // or enable responsive functionality:
+// GitHubCalendar(".calendar", "rajtupe987", { responsive: true });
+
+// // Use a proxy
+// GitHubCalendar(".calendar", "rajtupe987", {
+//    proxy (username) {
+//      return fetch(`https://your-proxy.com/github?user=${username}`)
+//    }
+// });
+
+
+
+//*=============================== toggle icon navbar ==================================
+
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('#nav-menu')
+
+menuIcon.onclick = () => {
+  menuIcon.classList.toggle('bx-x');
+  navbar.classList.toggle('active')
+};
+
+// *=============================== github calender ==================================
+    GitHubCalendar(".calendar", "RajTupe");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "RajTupe", { responsive: true });
+
+// *=============================== resume open in new tab ==================================
+
+
+    let resume1 = document.getElementById("resume-button-1").addEventListener("click", NewTab)
+    let resume2 = document.getElementById("resume-button-2").addEventListener("click", NewTab)
+
+    function NewTab() {
+      window.open(
+        "https://drive.google.com/file/d/1VwcnAs64XPLDkBzzR-sBOAzdO7urZ-1H/view?usp=drive_link/view?usp=sharing",
+        "_blank"
+      );
     }
-}
 
-//
+// *=============================== scroll sections active link ==================================
+let sections = document.querySelectorAll('section');
+let navlinks = document.querySelectorAll('header nav a')
 
-var swiper = new Swiper(".swiper-container1", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-    },
+window.onscroll = () => {
+  sections.forEach(sec => {
+    let top = window.scrollY;
+    let offset = sec.offsetTop - 150;
+    let height = sec.offsetHeight;
+    let id = sec.getAttribute('id');
+
+    if(top >= offset && top < offset + height) {
+        navlinks.forEach(links => {
+          links.classList.remove('active');
+          document.querySelector('header nav a[href*=' + id + ']').classList.add('active')
+        });
+    };
+
+  });
+  // *=============================== sticky navbar ==================================
+   
+  let header = document.querySelector('header');
+
+  header.classList.toggle('sticky', window.scrollY > 100);
+
+// *=============================== remove toggle icon and navbar when click navbar link(scroll) ==================================
+
+menuIcon.classList.remove('bx-x');
+navbar.classList.remove('active')
+
+};
+
+// *=============================== scroll reveal ==================================
+
+ScrollReveal({
+  // reset: true,
+  distance: '80px',
+  duration: 2000,
+  delay: 200
 });
-var swiper = new Swiper(".swiper-container2", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-    },
+
+ScrollReveal().reveal('.home-content, .heading', { origin:'top'});
+ScrollReveal().reveal('.home-img, .skills-container, .project-card, .contact form', { origin:'bottom'});
+ScrollReveal().reveal('.home-content h1', { origin:'left'});
+ScrollReveal().reveal('.home-content p, .about-content', { origin:'left'});
+
+// *===============================  typed js==================================
+
+const typed = new Typed('.multiple-text', {
+  strings: ['Full Stack Web Developer', 'Front-End  Developer'],
+  typeSpeed: 100,
+  backSpeed: 100,
+  backdelay: 1000,
+  loop: true
+})
+
+
+
+GitHubCalendar(".calendar", "rajtupe987");
+
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "rajtupe987", { responsive: true });
+
+// Use a proxy
+GitHubCalendar(".calendar", "rajtupe987", {
+   proxy (username) {
+     return fetch(`https://your-proxy.com/github?user=${username}`)
+   }
 });
-var swiper = new Swiper(".swiper-container3", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-    },
-});
-const GetDetail1 = () => {
-    document.getElementById("project1_Info").style.display = "grid";
-    document.getElementById("get1").style.display = "none";
-    document.getElementById("close1").style.display = "flex";
-    document.getElementById("box1").style.boxShadow =
-        "0 3px 10px -5px #277ad894, -7px 5px 10px -5px #277ad894, 7px 5px 10px -5px #277ad894";
-    l;
-};
-const CloseDetail1 = () => {
-    document.getElementById("project1_Info").style.display = "none";
-    document.getElementById("close1").style.display = "none";
-    document.getElementById("get1").style.display = "flex";
-    document.getElementById("box1").style.boxShadow = "none";
-};
-const GetDetail2 = () => {
-    document.getElementById("project2_Info").style.display = "grid";
-    document.getElementById("get2").style.display = "none";
-    document.getElementById("close2").style.display = "flex";
-    document.getElementById("box2").style.boxShadow =
-        "0 3px 10px -5px #277ad894, -7px 5px 10px -5px #277ad894, 7px 5px 10px -5px #277ad894";
-    l;
-};
-const CloseDetail2 = () => {
-    document.getElementById("project2_Info").style.display = "none";
-    document.getElementById("close2").style.display = "none";
-    document.getElementById("get2").style.display = "flex";
-    document.getElementById("box2").style.boxShadow = "none";
-};
-const GetDetail3 = () => {
-    document.getElementById("project3_Info").style.display = "grid";
-    document.getElementById("get3").style.display = "none";
-    document.getElementById("close3").style.display = "flex";
-    document.getElementById("box3").style.boxShadow =
-        "0 3px 10px -5px #277ad894, -7px 5px 10px -5px #277ad894, 7px 5px 10px -5px #277ad894";
-};
-const CloseDetail3 = () => {
-    document.getElementById("project3_Info").style.display = "none";
-    document.getElementById("close3").style.display = "none";
-    document.getElementById("get3").style.display = "flex";
-    document.getElementById("box3").style.boxShadow = "none";
-};
