@@ -191,10 +191,10 @@ menuIcon.onclick = () => {
 };
 
 // *=============================== github calender ==================================
-    GitHubCalendar(".calendar", "RajTupe");
+    GitHubCalendar(".calendar", "MeghaRawat");
 
     // or enable responsive functionality:
-    GitHubCalendar(".calendar", "RajTupe", { responsive: true });
+    GitHubCalendar(".calendar", "MeghaRawat", { responsive: true });
 
 // *=============================== resume open in new tab ==================================
 
@@ -267,13 +267,13 @@ const typed = new Typed('.multiple-text', {
 
 
 
-GitHubCalendar(".calendar", "rajtupe987");
+GitHubCalendar(".calendar", "megha9354");
 
 // or enable responsive functionality:
-GitHubCalendar(".calendar", "rajtupe987", { responsive: true });
+GitHubCalendar(".calendar", "megha9354", { responsive: true });
 
 // Use a proxy
-GitHubCalendar(".calendar", "rajtupe987", {
+GitHubCalendar(".calendar", "megha9354", {
    proxy (username) {
      return fetch(`https://your-proxy.com/github?user=${username}`)
    }
