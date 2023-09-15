@@ -402,6 +402,16 @@ span {
 /*-----------------------------------*\
     #Projects
   \*-----------------------------------*/
+.projectScondContaier {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+
 
 .project {
   background: var(--bg-oxford-blue);
@@ -436,6 +446,8 @@ span {
   transform: scale(1.1);
 }
 
+
+
 .project-card .project-layer {
   position: absolute;
   bottom: 0;
@@ -451,6 +463,7 @@ span {
   padding: 0 4rem;
   transform: translate(100%);
   transition: .5s ease;
+  /* gap: 6rem; */
 }
 
 .project-card .project-layer {
@@ -459,6 +472,7 @@ span {
 
 .project-layer h4 {
   font-size: 3rem;
+  color: white;
 }
 
 .project-tech-stack {
@@ -468,6 +482,11 @@ span {
 .project-layer p {
   font-size: 1.5rem;
   margin: .3rem 0 1rem;
+  color: white;
+}
+
+.project-layer h5 {
+  color: white;
 }
 
 .project-layer a {
@@ -485,13 +504,19 @@ span {
   color: var(--bg-oxford-blue-2);
 }
 
+
+
+
 .projectlinks {
   display: flex;
-
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 .projectlinks>a>i {
-
   margin-top: 15px;
 }
 
