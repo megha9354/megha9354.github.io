@@ -408,7 +408,8 @@ span {
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 2rem;
+  /* gap: 2rem; */
+  color: white !important;
 }
 
 
@@ -470,7 +471,7 @@ span {
   transform: translateY(0);
 }
 
-.project-layer h4 {
+.project-card h4 {
   font-size: 3rem;
   color: white;
 }
@@ -479,13 +480,13 @@ span {
   font-size: 2rem;
 }
 
-.project-layer p {
+.project-card p {
   font-size: 1.5rem;
   margin: .3rem 0 1rem;
   color: white;
 }
 
-.project-layer h5 {
+.project-card h5 {
   color: white;
 }
 
@@ -520,7 +521,14 @@ span {
   margin-top: 15px;
 }
 
+.projectScondContaier .projectlinks {
+  font-size: 30px;
+}
+
+
+
 .project-title {
+  margin-top: 1.5rem;
   color: rgb(0, 0, 0);
 }
 
